@@ -25,3 +25,5 @@ const updateParserState = (previousState: ParserState, newState: ParserState) =>
 		errorStack: [],
 	};
 };
+
+export { updateParserError, updateSupressedParserError, updateParserState };
