@@ -86,8 +86,5 @@ const parse = (string: string, parser: Parser, identifier?: string) => {
 };
 
 export default {
-	fullString,
-	sequenceOf,
-	choice,
-	parse,
+	fullString, sequenceOf, choice, parse,
 };
